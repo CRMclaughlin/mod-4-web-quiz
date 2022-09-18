@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    /* default faunt */
+    font-family: 'Courier New', Courier, monospace;
+    /* debugging */
     border: 1px solid paleturquoise;
 }
 
@@ -17,14 +19,24 @@ p {
 }
 
 button {
-    background-color: darkolivegreen;
-    color: white;
+    outline: none;
+    background-color: chocolate;
+    color: black;
+    font-size: 1.5em;
 }
+/* --------------- */
+/* Outer Container */
+/* --------------- */
 
 .outer-container {
     padding: 10px;
 }
 
-.top-bar {
+/* --------------- */
+/* top-bar Container */
+/* --------------- */
 
+.top-bar p {
+    float: right;
 }
+
