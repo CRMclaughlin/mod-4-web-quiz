@@ -5,16 +5,17 @@
     /* default faunt */
     font-family: 'Courier New', Courier, monospace;
     /* debugging */
-    border: 1px solid paleturquoise;
+    /* border: 2px solid paleturquoise; */
 }
 
 body {
-    background-color: bisque;
+    background-color: blueviolet;
     font-family: 'Courier New', Courier, monospace;
+   
 }
 
 p {
-    color: maroon;
+    color: bisque;
     font-size: 1.7em;
 }
 
@@ -25,11 +26,15 @@ button {
     font-size: 1.5em;
 }
 /* --------------- */
-/* Outer Container */
+/* Outer container section */
 /* --------------- */
 
 .outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     padding: 10px;
+    height: 100vh;
 }
 
 /* --------------- */
@@ -38,5 +43,16 @@ button {
 
 .top-bar p {
     float: right;
+}
+
+/* --------------- */
+/* inner container section */
+/* --------------- */
+
+.inner-container {
+    background-color: bisque;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
 }
 
