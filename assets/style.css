@@ -21,7 +21,7 @@ p {
     font-size: 1.7em;
 }
 
-button {
+.top-bar button {
     outline: none;
     background-color: chocolate;
     color: black;
@@ -52,14 +52,13 @@ button {
 /* --------------- */
 
 .inner-container {
-    background-color: bisque;
+    /* background-color: bisque; */
     height: 100%;
     width: 50%;
     margin: 0 auto;
-    color: black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 h1, h2 {
@@ -67,9 +66,30 @@ h1, h2 {
     text-align: center;
 }
 
-header p {
+/* --------------- */
+/* header/quiz section */
+/* --------------- */
+
+.inner-container header {
+    margin-top: 25vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: bisque;
+    
+}
+
+.quiz-intro p {
     color: black;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
+.quiz-intro button {
+    outline: none;
+    background-color: slateblue;
+    color: black;
+    font-size: 1.5em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15em;
+}
