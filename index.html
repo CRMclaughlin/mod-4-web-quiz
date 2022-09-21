@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module 4 Web Quiz</title>
-    <link rel="stylesheet" href="assets/style.css"
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
    <!-- main outer div -->
@@ -23,18 +23,37 @@
             <header class="quiz-intro">
                 <h1> Welcome to the quiz!</h1>
                 <p> Please press the start button to proceed to the quiz 🤓 </p>
-                <button> Start Quiz</button>
+                <div class="controls">
+                <button id="start-button" class="start-button btn"> Start</button>
+                <button id="next-button" class="next-button btn hide">Next</button>
+                </div>
 
             </header>
 
             <!-- Main quiz content -->
             <main>
+                <div class="container">
+                    <div id="question-container" class="hide">
+                        <div id="question">Question</div>
+                        <div id="answer-buttons" class="btn-column">
+                            <button class="btn">Answer 1</button>
+                            <button class="btn">Answer 2</button>
+                            <button class="btn">Answer 3</button>
+                            <button class="btn">Answer 4</button>
+
+
+
+
+
+
+
+                </div>
 
             </main>
 
         </div>
 
     </div>
-
+    <script src="assets/script.js"></script>
 </body>
 </html>
