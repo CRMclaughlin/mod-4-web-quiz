@@ -11,7 +11,7 @@ This weeks challenge was to make a timed webquiz app
 - When timer runs out player would input thier highscores into the memory
 - After initials are put in player would be prompted to quit or play again
 
-- Will be working with tutor to try and finish javascript logic to make a functional game.
+- Will be working with tutor to try and finish javascript logic to make a functional game, and resubmitting.
 
 # Instalations
 
