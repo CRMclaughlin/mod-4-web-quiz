@@ -7,6 +7,7 @@ var answerButtonsElement = document.getElementById('answer-buttons')
 var randomQuestion, currentQuestionIndex
 
 
+// // if start button is "clicked"
 
 startBtn.addEventListener("click", startGame)
 
@@ -20,17 +21,22 @@ function startGame() {
     setNextQuestion()
 }
 
+// then screen changes to questions screen 
 function setNextQuestion(){
     showQuestion(randomQuestion[currentQuestionIndex])
 }
 
+
+// function to generate random question
+// with 4 different answers
 function showQuestion(myQuestions) {
     questionElement.innerText = question.question
 }
 
-
+// array of questions
 var myQuestions = [
     {
+        //beta question to try and get the function working
     question:"What is 2+2?",
     answers: {
         a: '3',
@@ -43,31 +49,11 @@ var myQuestions = [
 
 ];
 
-// var question
-
-
-// function renderQuestions() {
-//     var str = ""
-//     for (var i = 0; i < question.length; i++){
-        
-//     }
-    
-// }
-
-// // if start button is "clicked"
-
-// function startRound() {
-//     var randomIndex = Math.floor(Math.random() * questions.length)
-//     question = questions[randomIndex]
-//     renderQuestions()
-
-
-// }
-
-// then screen changes to questions screen 
 // timer starts in right hand corner
-// questions are randomly selected
-// with 4 different answers
+// if (startbtn pressed){
+    //then timer starts
+//}
+
 // when answer is selected it is either correct or incorrect
 //correct answers are stored to high score
 // when questions and timer run out player inputs initials for high score
